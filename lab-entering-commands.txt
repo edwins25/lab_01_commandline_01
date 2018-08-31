@@ -17,6 +17,13 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+Adlm			MPLABXProjects		Things
+Adobe			Movies			drills.py
+Applications		Music			ipe.properties
+Desktop			New Unity Project	isus
+Documents		Pictures		pymel.log
+Downloads		Public			xgen
+Library			QLData
 
 
 
@@ -28,19 +35,20 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 
-
+nothing happens
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
+Desktop/   Documents/ Downloads/ 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
-
+ls: D: No such file or directory
 
 ==========
 3.  Type:
@@ -50,7 +58,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+drwxr-xr-x   8 student  staff   272 Jan 17  2018 Ableton
+drwxrwxrwx  14 student  staff   476 Jan 17  2018 Adobe
 
 ==========
 4.  Type:
@@ -60,7 +69,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+.			Avid Projects		Processing
+..			Fritzing		REAPER Media
 
 ==========
 5.  Type:
@@ -70,7 +80,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
+yes
 
 ==========
 6.  Type:
@@ -80,7 +90,7 @@ What command was repeated?
 What command was repeated?
 ----------
 
-
+clear
 
 ==========
 7.  Type:
@@ -90,7 +100,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+Macintosh HD		firmwaresyncd.juDcbP
 
 ==========
 8.  Type:
@@ -100,31 +110,31 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+up
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+up, tab
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+tab
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
@@ -140,6 +150,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
+ls: foo: No such file or directory
 
 
 ==========
@@ -150,6 +161,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
+ls: foo: No such file or directory
 
 
 ==========
@@ -159,3 +171,8 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+
+Command: ls
+Flag:-a
+Argument:Desktop
+Prompt: Terminal
