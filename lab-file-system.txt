@@ -287,13 +287,13 @@ cd or ~
 28. What's a pathname?
 ----------
 
-
+A pathname is something that specifies a unique location in a file system.
 
 ==========
 29. What's a directory?
 ----------
 
-
+A directory is a catalogue like a file system. 
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
